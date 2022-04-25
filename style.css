@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+main {
+  width: 95%;
+  margin: 0 auto;
+  
+}
+
+nav{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ min-height: 8vh;
+ width: 100%;
+ position: fixed;
+ background: rgb(255, 255, 255);
+
+}
+
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #AE9064;
+}
+
+
+.logo{
+  width: 50%;
+}
+
+.logo img{
+  height: 40px;
+}
+
+.container {
+  background: #FFEDD3;
+  min-height: 100vh;
+  padding: 25px;
+  
+}
+
+.about{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  width: 100%;
+  gap: 1rem;
+  
+
+}
+
+.grid1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 35rem;
+}
+
+.grid1 p{
+  text-align: center;
+  align-self: center;
+  color: rgb(128 112 101 / 90%);
+  font-size: 18px;
+  width: 70%;
+  font-family:  'Charm', cursive;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-left: 5rem;
+}
+
+.image1 {
+align-self: center;
+}
+
+.image1 img{
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  padding-top: 5px;
+  opacity: 60%;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
+.image1 img:hover{
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.grid2 {
+  display: flex;
+  flex-direction: row;
+  height: 28rem;
+}
+
+.grid2 p{
+  align-self: flex-end;
+  color: rgb(128 112 101 / 90%);
+  font-size: 18px;
+  width: 40%;
+  font-family:  'Charm', cursive;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-right: 1rem;
+  
+  
+}
+
+  .image2 img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 2rem;
+    opacity: 70%;
+    margin-top: 5rem;
+  }
+ 
+  .grid2 img:hover{
+    opacity: 100%;
+    cursor: pointer;
+  }
+
+  .grid3 {
+    margin: 2rem auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+  }
+
+  .grid3 p{
+  color: rgb(128 112 101 / 90%);
+  font-size: 18px;
+  width: 80%;
+  font-family:  'Charm', cursive;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 0 auto;
+  }
+
+ 
+ .form p{
+   width: 45%;
+   text-align: left;
+   font-family: 'Poppins';
+   font-size: 30px;
+   font-weight: 600;
+   color: #312006;
+   margin-top: 2rem;
+   letter-spacing: 1px;
+  
+ }
+
+ .email {
+   padding: 7.5px 5px;
+   width: 35%;
+ }
+
+ .btn {
+   padding: 8px 5px;
+   line-height: 1;
+   width: 10%;
+   background-color:#58401C ;
+   color: white;
+   font-size: 16px;
+   margin-top: 1px;
+  
+ }
+
+ iframe{
+   display: flex;
+   margin: 0 auto;
+ }
+
+ .shop{
+  background: #FFEDD3;
+  
+}
+
+ .shop h1 {
+  text-align: center;
+  font-size: 65px; 
+  color:rgb(174 144 100);
+  margin-bottom: 15px;
+  padding-top: 40px;
+
+ }
+
+.card-flex {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding-bottom: 60px;
+
+}
+ .card{
+   background: #AE9064;
+   width: 250px;
+   height:430px;
+   margin: 25px;
+   border-radius: 15px;
+ }
+
+ .card-image {
+   background-color: rgb(255, 255, 255);
+   height: 250px;
+   background-repeat: no-repeat;
+   border-radius: 15px 15px 0 0;
+ }
+
+ .card h2 {
+   text-align: center;
+   padding: 5px;
+ }
+
+ .card p {
+   text-align: center;
+   font-size: 20px;
+ }
+
+ .card a{
+  display: block;
+   text-align: center;
+   background-color: #58401C;
+   padding: 15px 20px;
+   margin: 20px 50px;
+   color: white;
+   text-decoration: none;
+   font-family: 'Poppins';
+   border-radius: 10px;
+   letter-spacing: 1px;
+   
+ }
+
+.card-1{
+  background-image: url('/images/GF-cat-Chickenboreal.png'
+  );
+
+}
+
+.card-2{
+  background-image: url('/images/royalcanin.png');
+  
+}
+
+.card-3{
+  background-image: url('/images/stelladogfood.jpg');
+}
+
+
+.card:hover{
+  background-color: #312006;
+  color: white;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+ .our-brands {
+  
+   background: #ffffff9d;
+  
+   width: 100%;
+ }
+
+ .brands-header {
+   width: 100%;
+   border-radius:  0 0 15px 15px;
+ }
+
+ .our-brands h1 {
+  text-align: center;
+  font-size: 48px;
+  width: 20%;
+  margin: 10px auto;
+  color:rgb(174 144 100);
+  padding: 25px 0;
+  
+ }
+
+ .our-brands p {
+  text-align: center;
+  align-self: center;
+  color:rgb(128 112 101 / 90%);
+  font-size: 18px;
+  width: 80%;
+  font-family:  'Poppins', cursive;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 10px auto;
+ }
+
+ .brand-logos{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding-bottom: 100px;
+ }
+
+ .brand-logos img {
+   width: 250px;
+   height: 200px;
+   margin: 25px;
+ }
+
+
+
+footer {
+  height: 30px;
+  background:#312006 ;
+}
+
+
+@media screen and (max-width:500px){
+  nav {
+    width:100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    min-height: 15vh;
+  }
+
+
+  .nav-links{
+    width: 100%;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    
+  }
+   
+  .logo {
+    width: 100%;
+    margin: 15px auto;
+  }
+
+
+  .logo img{
+    height: 40px;
+    text-align: center;
+  }
+
+  .container {
+  padding: 15px 10px;
+}
+ 
+.about{
+  display: block;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.grid1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 20rem;
+}
+
+.grid1 p{
+  font-size: 14px;
+  width: 100%;
+  letter-spacing: 0px;
+  margin-left: 0rem;
+}
+
+.image1 img{
+  
+  width: 250px;
+  height: 250px;
+  padding-top: 5px;
+  opacity: 100%;
+  margin-left: 0rem;
+}
+
+.grid2 {
+  display: block;
+  height: 24.5rem;
+}
+
+.grid2 p{
+  color: rgb(128 112 101 / 90%);
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 0px;
+  margin-right: 0rem;
+  padding-top: 25px;
+  
+  
+}
+
+  .image2 img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-right: 0rem;
+    opacity: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .grid3 p{
+    color: rgb(128 112 101 / 90%);
+    font-size: 14px;
+    width: 100%;
+    letter-spacing: 0px;
+    }
+  
+   
+   .form p{
+     width: 100%;
+     font-size: 22px;
+     font-weight: 600;
+     color: #312006;
+     letter-spacing: 0px;
+    
+   }
+  
+   .email {
+     width: 100%;
+   }
+  
+   .btn {
+     padding: 5px 5px;
+     width: 40%;
+     font-size: 16px;
+     margin-top: 5px;
+   }
+
+   iframe{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 250px;
+  }
+ 
+  .our-brands {
+    margin: 1rem auto;
+    background: #ffffff9d;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+  }
+ 
+  .brands-header {
+    width: 100%;
+  }
+ 
+  .our-brands h1 {
+   font-size: 30px;
+   width: 100%;
+  }
+ 
+  .our-brands p {
+   font-size: 14px;
+   width: 100%;
+   letter-spacing: 0px;
+   font-weight: 600;
+   margin: 0px auto;
+  }
+ 
+
+ 
+  .brand-logos img {
+    width: 200px;
+    height: 180px;
+    margin: 0px;
+  }
+ 
+ .shop{
+   margin: 30px auto;
+ }
+  .shop h1 {
+   text-align: center;
+   font-size: 35px; 
+   color:rgb(174 144 100);
+   margin-bottom: 0px;
+ 
+  }
+ 
+  .card{
+    width: 230px;
+    height:370px;
+    margin: 25px auto;
+    border-radius: 15px;
+  }
+ 
+  .card-image {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+  }
+ 
+  .card h2 {
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+  }
+ 
+  .card p {
+    text-align: center;
+    font-size: 14px;
+  }
+ 
+  .card a{
+    padding: 10px 15px;
+    margin: 5px 50px;
+    color: white;
+  }
+ 
+  
+}
